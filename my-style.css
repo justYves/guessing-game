@@ -53,15 +53,33 @@ h2 {
 }
 
 
-td > .wrong {
-max-width: 100% ; 
+.wrong {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    background: red;
+    border: 2px solid #FF9F4C;
+    text-align: center;
+    margin : 0 auto;
+    float: none;
+    font-size: 15px;
 }
 
-td > .empty {
-
+.empty {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    background: #fff;
+    border: 2px solid #FF9F4C;
+    text-align: center;
+    margin : 0 auto;
+    float: none;
+    font-size: 15px;
 }
 
-td > .success {
+.success {
 
 }
 
@@ -73,7 +91,7 @@ td > .success {
     color: #ffffff;
     width:40%;
 }
- 
+
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
     background: #2F989D;
 }
@@ -91,21 +109,30 @@ td > .success {
 
 
 
-.progress {
+.progress-row {
     text-align:center;
-    height: 30px ;
+    height: 50px;
 }
+
+
 .progress-value {
     position:absolute;
     right:0;
     left:0;
 }
 
-.numbar > table{
-	position: absolute;
+
+
+.numbar {
+	position: relative;
 	width : 100%;
 	z-index :1 ;
 	font-size : 20px;
+  left:  0%;
+  margin: 0 0 0 0 ;
+  text-align: center;
+  padding-left: 2px;
+  padding-right: 2px;
 }
 
 .form-control:focus {
@@ -116,6 +143,29 @@ td > .success {
 a:focus { 
 	outline: none; 
 }
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+    margin-top: -10px;
+}
+@media (min-width: 768px) {
+    .col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+
 
 /*.panel-body {
 	padding: 0 0 0 0 ;
