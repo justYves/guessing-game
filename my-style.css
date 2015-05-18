@@ -1,0 +1,123 @@
+/*div {
+    border: 1px solid #000000;
+}
+
+row {
+	border: 1px solid #000000;
+}
+*/
+body {
+	background-color: #FFDA8F;
+}
+
+.game{
+	margin-top: 5%;
+}
+
+.panel {
+	border-radius: 10px; 
+}
+
+h2 {
+	font-family: 'Lobster Two', cursive;
+	margin-top: 10.5px;
+}
+
+.panel-primary > .panel-heading {
+  background-color: #3FB3B8;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.panel-primary > .panel-body {
+  padding-bottom: 0px;
+}
+
+.panel-primary > .panel-footer {
+  background-color: #ADEAED;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+.alert {
+	padding: 5px 5px 5px 5px;
+	margin-bottom: 0;
+	color: #E9A925;
+}
+
+.btn {
+	border : none;
+	border-radius : 7px;
+}
+
+
+td > .wrong {
+max-width: 100% ; 
+}
+
+td > .empty {
+
+}
+
+td > .success {
+
+}
+
+
+
+
+.btn-primary {
+    background: #4FB6BB;
+    color: #ffffff;
+    width:40%;
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #2F989D;
+}
+
+.btn-success {
+    background: #FFAF6B;
+    color: #ffffff;
+    width:40%;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-tn-success:active, .btn-success.active, .open > .dropdown-toggle.btn-success {
+    background: #FF9F4C;
+    outline: none;
+}
+
+
+
+.progress {
+    text-align:center;
+    height: 30px ;
+}
+.progress-value {
+    position:absolute;
+    right:0;
+    left:0;
+}
+
+.numbar > table{
+	position: absolute;
+	width : 100%;
+	z-index :1 ;
+	font-size : 20px;
+}
+
+.form-control:focus {
+  border-color: #FFDABA;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+
+a:focus { 
+	outline: none; 
+}
+
+/*.panel-body {
+	padding: 0 0 0 0 ;
+}
+*/
