@@ -3,24 +3,24 @@
 }
 
 row {
-	border: 1px solid #000000;
+  border: 1px solid #000000;
 }
 */
 body {
-	background-color: #FFDA8F;
+  background-color: #FFDA8F;
 }
 
 .game{
-	margin-top: 5%;
+  margin-top: 5%;
 }
 
 .panel {
-	border-radius: 10px; 
+  border-radius: 10px; 
 }
 
 h2 {
-	font-family: 'Lobster Two', cursive;
-	margin-top: 10.5px;
+  font-family: 'Lobster Two', cursive;
+  margin-top: 10.5px;
 }
 
 .panel-primary > .panel-heading {
@@ -42,28 +42,29 @@ h2 {
 
 
 .alert {
-	padding: 5px 5px 5px 5px;
-	margin-bottom: 0;
-	color: #E9A925;
+  padding: 5px 5px 5px 5px;
+  margin-bottom: 0;
+  color: #E9A925;
 }
 
 .btn {
-	border : none;
-	border-radius : 7px;
+  border : none;
+  border-radius : 7px;
 }
 
 
 .wrong {
-    border-radius: 50%;
+   border-radius: 50%;
     width: 40px;
     height: 40px;
     padding: 8px;
-    background: red;
+    background: #fff;
     border: 2px solid #FF9F4C;
     text-align: center;
     margin : 0 auto;
     float: none;
     font-size: 15px;
+    color: red;
 }
 
 .empty {
@@ -80,6 +81,17 @@ h2 {
 }
 
 .success {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    background: #fff;
+    border: 2px solid #FF9F4C;
+    text-align: center;
+    margin : 0 auto;
+    float: none;
+    font-size: 15px;
+    color: green;
 
 }
 
@@ -124,10 +136,10 @@ h2 {
 
 
 .numbar {
-	position: relative;
-	width : 100%;
-	z-index :1 ;
-	font-size : 20px;
+  position: relative;
+  width : 100%;
+  z-index :1 ;
+  font-size : 20px;
   left:  0%;
   margin: 0 0 0 0 ;
   text-align: center;
@@ -141,7 +153,7 @@ h2 {
 }
 
 a:focus { 
-	outline: none; 
+  outline: none; 
 }
 
 .col-xs-15 {
@@ -168,6 +180,6 @@ a:focus {
 
 
 /*.panel-body {
-	padding: 0 0 0 0 ;
+  padding: 0 0 0 0 ;
 }
 */
