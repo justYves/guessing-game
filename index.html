@@ -29,38 +29,40 @@
 								<button type="submit" class="btn btn-success submit">Submit your Guess</button>
 							</form> 
 
-							<div class="message row">
-								<h5></h5>
+							<div class="alert row">
+								<h4 id="temp"> </h4>
 							</div><!-- /alert -->
 
 							<!--This is the PROGRESS BAR -->
 							<div class="row progress-row">
-							<div class="progress">
-								<span class="progress-value">						
-									<div class="numbar row">
+								<div class="progress">
+									<span class="progress-value">						
+										<div class="numbar row">
 
-										<div class="col-xs-15"><p class="empty">?<p></div>
-										<div class="col-xs-15"><p class="empty">?<p></div>
-										<div class="col-xs-15"><p class="empty">?<p></div>
-										<div class="col-xs-15"><p class="empty">?<p></div>
-										<div class="col-xs-15"><p class="empty">?<p></div>
+											<div class="col-xs-15"><p class="empty">?<p></div>
+											<div class="col-xs-15"><p class="empty">?<p></div>
+											<div class="col-xs-15"><p class="empty">?<p></div>
+											<div class="col-xs-15"><p class="empty">?<p></div>
+											<div class="col-xs-15"><p class="empty">?<p></div>
 
 
 
-									</div></span>
-									<div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-value-now="33.33" style="width: 0%">
+										</div></span>
+										<div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-value-now="33.33" style="width: 0%">
 
-									</div>
-								</div><!-- /progress -->
-</div>
-							<div class="alert row">
-								<h5>You have 3 guesses remaining...</h5>
-							</div><!-- /alert -->
+										</div>
+									</div><!-- /progress -->
+								</div>
+								<div class="alert row">
+									<h5><div id="guess">You have 5 guesses remaining... </div><div id="hintText"></div><div id="warningText"></div> </h5>
+									</br>
+									
+								</div><!-- /alert -->
 
 
 							</div> <!-- /panel footer-->
 							<div class="panel-footer">
-								<a class="btn btn-primary" href="#" role="button">Play again</a>
+								<a class="btn btn-primary" id="play-again" href="#" role="button">Play again</a>
 								<a class="btn btn-primary" id ="hint" href="#"role="button">Give me a hint</a>
 							</div><!-- /panel footer -->
 						</div> <!-- /panel -->
@@ -76,6 +78,7 @@
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 			<!-- Latest compiled and minified JavaScript -->
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 			<script type="text/javascript" src="my-script.js"></script>
 		</body>
 		</html>
